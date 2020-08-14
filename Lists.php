@@ -3594,6 +3594,8 @@ Bangun dan shalat, jika dia menghendaki.',
                 'translation_id' => null,
                 'inline_pre_translation_id' => null,
                 'inline_post_translation_id' => null,
+                'note_id' => null,
+                'type' => null,
             ],
         ]
     ],
