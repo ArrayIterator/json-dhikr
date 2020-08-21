@@ -202,6 +202,9 @@ List of doa on sections of title.
 
 ## MANASIK
 
+No `inline_pre_translation_id` & `inline_post_translation_id`
+
+
 ### STRUCTURES
 ```json
 [
@@ -212,21 +215,17 @@ List of doa on sections of title.
     "pre_contents": [
         {
             "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
-            "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+            "post_text_id": "(string|null) string if there are content otherwise null end of text",
             "text": "(string|null) string arabic text otherwise null",
-            "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
-            "inline_pre_translation_id": "(string|null) string or null, put in-line (one line) before translation start",
-            "inline_post_translation_id": "(string|null) string or null, put in-line (one line) after translation end"
+            "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)"
         }
     ],
     "contents": [
       {
         "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
-        "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+        "post_text_id": "(string|null) string if there are content otherwise null end of text",
         "text": "(string|null) string arabic text otherwise null",
-        "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
-        "inline_pre_translation_id": "(string|null) string or null, put in-line (one line) before translation start",
-        "inline_post_translation_id": "(string|null) string or null, put in-line (one line) after translation end"
+        "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)"
       }
     ],
     "section": [
@@ -235,21 +234,23 @@ List of doa on sections of title.
           "title_id": "(string) title on indonesian (id) as identifier",
           "type": "(string) data type purpose for (list|note)",
           "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
-          "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+          "post_text_id": "(string|null) string if there are content otherwise null end of text",
           "text": "(string|null) string arabic text otherwise null",
           "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
           "pre_contents": ["See @pre_contents"],
           "contents": ["see @contents"],
           "list":[
             {
-             "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
-             "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
-             "text": "(string|null) string arabic text otherwise null",
-             "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
-             "type": "(string) data type purpose for (sublist)",
-             "sublist": [
+              "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
+              "post_text_id": "(string|null) string if there are content otherwise null end of text",
+              "text": "(string|null) string arabic text otherwise null",
+              "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
+              "type": "(string) data type purpose for (sublist|note) `note` key as a `contents`",
+              "sublist": [
                 "*@inheritance type(note|list)"
-             ]
+              ],
+              "pre_contents": [],
+              "contents": []
             }
           ]
         }
