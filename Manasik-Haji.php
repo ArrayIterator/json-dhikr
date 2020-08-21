@@ -1,13 +1,10 @@
 <?php
-// manasik list
+// manasik haji
 return [
     [
         'title_id' => 'Manasik Haji',
         'type' => 'section',
-        'pre_text_id' => null,
-        'post_text_id' => null,
-        'pre_contents' => [],
-        'contents' => [
+        'section' => [
             // 1
             [
                 'title_id' => 'Cara Melakukan Haji',
@@ -724,14 +721,13 @@ return [
                 'contents' => []
             ]
         ],
+        'pre_contents' => [],
+        'contents' => [],
     ],
     [
         'title_id' => 'Beberapa Kesalahan Yang Dilakukan Oleh Sebagian Jamaah Haji',
         'type' => 'section',
-        'pre_text_id' => null,
-        'post_text_id' => 'Kita memohon kepada Allah, semoga Dia memperbaiki keadaan ummat Islam dan memberi pemahaman dalam agama serta melindungi kita dan seluruh umat Islam dari fitnah-fitnah yang menyesatkan. Sesungguhnya Allah Maha Mendengar dan Mengabulkan doa hamba-Nya.',
-        'pre_contents' => [],
-        'contents' => [
+        'section' => [
             // 1
             [
                 'title_id' => 'Beberapa kesalahan dalam Ihram.',
@@ -1447,6 +1443,15 @@ return [
                 ],
                 'pre_contents' => [],
                 'contents' => [],
+            ],
+        ],
+        'pre_contents' => [],
+        'contents' => [
+            [
+                'pre_text_id' => 'Kita memohon kepada Allah, semoga Dia memperbaiki keadaan ummat Islam dan memberi pemahaman dalam agama serta melindungi kita dan seluruh umat Islam dari fitnah-fitnah yang menyesatkan. Sesungguhnya Allah Maha Mendengar dan Mengabulkan doa hamba-Nya.',
+                'post_text_id' => null,
+                'text' => null,
+                'translation_id' => null,
             ],
         ],
     ],

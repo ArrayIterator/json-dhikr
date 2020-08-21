@@ -1,6 +1,6 @@
 ## DOA
 
-## STRUCTURES
+### STRUCTURES
 ```json
 [
   {
@@ -32,7 +32,7 @@
 
 ```
 
-## SAMPLE
+### SAMPLE
 
 if there are new lines on contents value of string, please add it as list. (ul/li) 
 
@@ -132,7 +132,7 @@ for (var rootKey in doa) {
 
 ```
 
-## DESCRIPTION OF DOA LIST KEYS
+### DESCRIPTION OF DOA LIST KEYS
 
 > `title_`(string|iso code: en|id) : important
 
@@ -198,4 +198,64 @@ List of doa on sections of title.
         <!-- END LOOP -->
     </div>
 </div>
+```
+
+## MANASIK
+
+### STRUCTURES
+```json
+[
+  {
+    "title_en": "(string) title on english (en) as identifier",
+    "title_id": "(string) title on english (id) as identifier",
+    "type": "(string) data type purpose for (section)",
+    "pre_contents": [
+        {
+            "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
+            "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+            "text": "(string|null) string arabic text otherwise null",
+            "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
+            "inline_pre_translation_id": "(string|null) string or null, put in-line (one line) before translation start",
+            "inline_post_translation_id": "(string|null) string or null, put in-line (one line) after translation end"
+        }
+    ],
+    "contents": [
+      {
+        "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
+        "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+        "text": "(string|null) string arabic text otherwise null",
+        "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
+        "inline_pre_translation_id": "(string|null) string or null, put in-line (one line) before translation start",
+        "inline_post_translation_id": "(string|null) string or null, put in-line (one line) after translation end"
+      }
+    ],
+    "section": [
+      [
+        {
+          "title_id": "(string) title on english (id) as identifier",
+          "type": "(string) data type purpose for (list|note)",
+          "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
+          "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+          "text": "(string|null) string arabic text otherwise null",
+          "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
+          "pre_contents": ["See @pre_contents"],
+          "contents": ["see @contents"],
+          "list":[
+            {
+             "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
+             "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+             "text": "(string|null) string arabic text otherwise null",
+             "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
+             "type": "(string) data type purpose for (sublist)",
+             "sublist": [
+                "*@inheritance type(note|list)"
+             ]
+            }
+          ]
+        }
+      ]
+    ]
+  }
+]
+
 ```
