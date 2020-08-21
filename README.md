@@ -5,7 +5,7 @@
 [
   {
     "title_en": "(string) title on english (en) as identifier",
-    "title_id": "(string) title on english (id) as identifier",
+    "title_id": "(string) title on indonesian (id) as identifier",
     "type": "(string) data type purpose for (note|dua)",
     "pre_contents": [
         {
@@ -207,7 +207,7 @@ List of doa on sections of title.
 [
   {
     "title_en": "(string) title on english (en) as identifier",
-    "title_id": "(string) title on english (id) as identifier",
+    "title_id": "(string) title on indonesian (id) as identifier",
     "type": "(string) data type purpose for (section)",
     "pre_contents": [
         {
@@ -232,7 +232,7 @@ List of doa on sections of title.
     "section": [
       [
         {
-          "title_id": "(string) title on english (id) as identifier",
+          "title_id": "(string) title on indonesian (id) as identifier",
           "type": "(string) data type purpose for (list|note)",
           "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
           "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
