@@ -7,6 +7,16 @@
     "title_en": "(string) title on english (en) as identifier",
     "title_id": "(string) title on english (id) as identifier",
     "type": "(string) data type purpose for (note|dua)",
+    "pre_contents": [
+        {
+            "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
+            "post_text_id": "(string|null) string if there are content otherwise null of pre text after inline_post_translation_(id) / end of text",
+            "text": "(string|null) string arabic text otherwise null",
+            "translation_id": "(string|null) translation or notes, id as identifier. (add double quote to text)",
+            "inline_pre_translation_id": "(string|null) string or null, put in-line (one line) before translation start",
+            "inline_post_translation_id": "(string|null) string or null, put in-line (one line) after translation end"
+        }
+    ],
     "contents": [
       {
         "pre_text_id": "(string|null) string if there are content otherwise null of pre text before text (arabic)",
@@ -138,28 +148,53 @@ List of doa on sections of title.
 <div class="section-dua">
     <h1 class="title dua-title">{title_id}</h1>
     <div class="dua-container">
-        <!-- LOOP -->
+        <!-- pre content -->
 
-        <!-- if ({pre_text_id} not empty): -->
-        <p dir="ltr">{pre_text_id}</p>
-        <!-- endif; // {pre_text_id} not empty -->
+        <!-- LOOP PRE CONTENT LOOP-->
+        <div class="dua-pre-content-container">
+            <!-- if ({pre_contents.pre_text_id} not empty): -->
+            <p dir="ltr">{pre_contents.pre_text_id}</p>
+            <!-- endif; // {pre_contents.pre_text_id} not empty -->
+    
+            <!-- if ({pre_contents.text} not empty): -->
+            <p dir="rtl" class="arabic-text">{pre_contents.text}</p>
+            <!-- endif; // {pre_contents.text} not empty -->
+    
+            <!-- if ({pre_contents.inline_pre_translation_id}|{pre_contents.translation_id}|{pre_contents.inline_post_translation_id} not empty): -->
+            <p dir="ltr" class="translation">
+                {pre_contents.inline_pre_translation_id}
+                {pre_contents.translation_id}
+                {pre_contents.inline_post_translation_id}
+            </p>
+            <!-- endif; // {pre_contents.inline_pre_translation_id}|{pre_contents.translation_id}|{pre_contents.inline_post_translation_id} not empty -->
+    
+            <!-- if ({pre_contents.post_text_id} not empty): -->
+            <p dir="ltr">{pre_contents.post_text_id}</p>
+            <!-- endif; // {pre_contents.post_text_id} not empty -->
+        </div>
 
-        <!-- if ({text} not empty): -->
-        <p dir="rtl" class="arabic-text">{text}</p>
-        <!-- endif; // {text} not empty -->
-
-        <!-- if ({inline_pre_translation_id}|{translation_id}|{inline_post_translation_id} not empty): -->
-        <p dir="ltr" class="translation">
-            {inline_pre_translation_id}
-            {translation_id}
-            {inline_post_translation_id}
-        </p>
-        <!-- endif; // {inline_pre_translation_id}|{translation_id}|{inline_post_translation_id} not empty -->
-
-        <!-- if ({post_text_id} not empty): -->
-        <p dir="ltr">{post_text_id}</p>
-        <!-- endif; // {post_text_id} not empty -->
-
+        <!-- LOOP PRE CONTENT LOOP-->
+        <div class="dua-content-container">
+            <!-- if ({contents.pre_text_id} not empty): -->
+            <p dir="ltr">{contents.pre_text_id}</p>
+            <!-- endif; // {contents.pre_text_id} not empty -->
+    
+            <!-- if ({contents.text} not empty): -->
+            <p dir="rtl" class="arabic-text">{contents.text}</p>
+            <!-- endif; // {contents.text} not empty -->
+    
+            <!-- if ({contents.inline_pre_translation_id}|{contents.translation_id}|{contents.inline_post_translation_id} not empty): -->
+            <p dir="ltr" class="translation">
+                {contents.inline_pre_translation_id}
+                {contents.translation_id}
+                {contents.inline_post_translation_id}
+            </p>
+            <!-- endif; // {contents.inline_pre_translation_id}|{contents.translation_id}|{contents.inline_post_translation_id} not empty -->
+    
+            <!-- if ({contents.post_text_id} not empty): -->
+            <p dir="ltr">{contents.post_text_id}</p>
+            <!-- endif; // {contents.post_text_id} not empty -->
+        </div>
         <!-- END LOOP -->
     </div>
 </div>

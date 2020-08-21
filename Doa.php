@@ -5,6 +5,7 @@ return [
         'title_en' => 'The Virtues Of Dhikr',
         'title_id' => 'Keutamaan Dzikir',
         'type' => 'note',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => 'Allah ﷻ berfirman:',
@@ -274,6 +275,7 @@ return [
         'title_en' => 'Du\'a when waking up from sleep',
         'title_id' => 'Do\'a ketika bangun dari tidur',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -290,6 +292,7 @@ return [
         'title_en' => 'Du\'a when wearing clothes',
         'title_id' => 'Do\'a ketika mengenakan pakaian',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -306,6 +309,7 @@ return [
         'title_en' => 'Du\'a when wearing new clothes',
         'title_id' => 'Do\'a ketika mengenakan pakaian baru',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -322,6 +326,7 @@ return [
         'title_en' => 'Du\'a for peoples who wearing new clothes',
         'title_id' => 'Do\'a bagi orang yang mengenakan pakaian baru',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -346,6 +351,7 @@ return [
         'title_en' => 'Du\'a when putting clothes on',
         'title_id' => 'Do\'a ketika meletakkan pakaian',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -362,6 +368,7 @@ return [
         'title_en' => 'Du\'a come in to bathroom (toilet)',
         'title_id' => 'Do\'a masuk ke kamar mandi (WC)',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -378,6 +385,7 @@ return [
         'title_en' => 'Du\'a come out from the toilet',
         'title_id' => 'Do\'a keluar dari kamar mandi (WC)',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -394,6 +402,7 @@ return [
         'title_en' => 'Du\'a before wudhu',
         'title_id' => 'Do\'a sebelum wudhu',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -410,6 +419,7 @@ return [
         'title_en' => 'Du\'a after wudhu',
         'title_id' => 'Do\'a setelah wudhu',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -426,6 +436,7 @@ return [
         'title_en' => 'Du\'a when leaving the house',
         'title_id' => 'Do\'a ketika keluar rumah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -442,6 +453,7 @@ return [
         'title_en' => 'Du\'a when entering the house',
         'title_id' => 'Do\'a ketika masuk rumah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -458,6 +470,7 @@ return [
         'title_en' => 'Du\'a when goes to the mosque',
         'title_id' => 'Do\'a ketika pergi ke masjid',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -474,6 +487,7 @@ return [
         'title_en' => 'Du\'a when entering the mosque',
         'title_id' => 'Do\'a ketika masuk masjid',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -490,6 +504,7 @@ return [
         'title_en' => 'Du\'a when leaving the mosque',
         'title_id' => 'Do\'a ketika keluar masjid',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -506,6 +521,7 @@ return [
         'title_en' => 'Du\'a when leaving the mosque',
         'title_id' => 'Do\'a ketika keluar masjid',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -538,6 +554,7 @@ return [
         'title_en' => 'Du\'a Istiftah',
         'title_id' => 'Do\'a Istiftah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -594,6 +611,7 @@ return [
         'title_en' => 'Du\'a Ruku\'',
         'title_id' => 'Do\'a Ruku\'',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -641,6 +659,7 @@ return [
         'title_en' => 'Du\'a waking up from Ruku\'',
         'title_id' => 'Do\'a bangun dari Ruku\'',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -673,6 +692,7 @@ return [
         'title_en' => 'Du\'a Sujud',
         'title_id' => 'Do\'a Sujud',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -737,6 +757,7 @@ return [
         'title_en' => 'Du\'a ',
         'title_id' => 'Do\'a ',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -761,6 +782,7 @@ return [
         'title_en' => 'Du\'a Sujud Tilawah',
         'title_id' => 'Do\'a Sujud Tilawah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -785,6 +807,7 @@ return [
         'title_en' => 'Tasyahud',
         'title_id' => 'Tasyahud',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -801,6 +824,7 @@ return [
         'title_en' => 'Reading the Prophet\'s ﷺ Salawat After Tasyahud',
         'title_id' => 'Membaca Shalawat Nabi ﷺ Setelah Tasyahud',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -825,6 +849,7 @@ return [
         'title_en' => 'Du\'a after last Tasyahud before salam',
         'title_id' => 'Do\'a setelah Tasyahud akhir sebelum salam',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -921,6 +946,7 @@ return [
         'title_en' => 'Dhikr after shalat',
         'title_id' => 'Dzikir selesai shalat',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -993,6 +1019,7 @@ return [
         'title_en' => 'Du\'a Shalat Istikharah',
         'title_id' => 'Do\'a Shalat Istikharah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1017,6 +1044,7 @@ return [
         'title_en' => 'Morning and night Dhikr',
         'title_id' => 'Dzikir pagi dan petang',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1224,6 +1252,7 @@ return [
         'title_en' => 'Dhikr want to go to sleep',
         'title_id' => 'Dzikir menjelang tidur',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1336,6 +1365,7 @@ return [
         'title_en' => 'Du\'a if waking up at night',
         'title_id' => 'Do\'a jika terbangun pada malam hari',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1352,6 +1382,7 @@ return [
         'title_en' => 'Du\'a when something is scary in sleep',
         'title_id' => 'Do\'a apabila ada yang menakutkan dalam tidur',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1368,6 +1399,7 @@ return [
         'title_en' => 'What to do when a nightmare',
         'title_id' => 'Yang dilakukan bila mimpi buruk',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1407,6 +1439,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a qunut witr',
         'title_id' => 'Do\'a qunut witir',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1439,6 +1472,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Dhikr after salam shalat witr',
         'title_id' => 'Dzikir setelah salam shalat witir',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1463,6 +1497,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when sad and grieving',
         'title_id' => 'Do\'a saat gundah dan berduka',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1487,6 +1522,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for deep sorrow',
         'title_id' => 'Do\'a untuk kesedihan yang mendalam',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1527,6 +1563,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a  when meeting enemies and rulers',
         'title_id' => 'Do\'a saat bertemu musuh dan penguasa',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1559,6 +1596,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when fear facing the dzalim rulers',
         'title_id' => 'Do\'a saat takut menghadapi penguasa dzalim',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1583,6 +1621,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for the enemies',
         'title_id' => 'Do\'a atas musuh',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1599,6 +1638,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when fear from peoples / group',
         'title_id' => 'Do\'a saat takut terhadap suatu kaum/kelompok',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1615,6 +1655,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for those who are in doubt in faith',
         'title_id' => 'Do\'a bagi yang mengalami  keraguan dalam iman',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1647,6 +1688,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for being able to pay off the debt',
         'title_id' => 'Do\'a agar dapat melunasi hutang',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1671,6 +1713,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a in doubt in shalat and reading',
         'title_id' => 'Do\'a saat ragu dalam shalat dan bacaannya',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1687,6 +1730,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a of people who have difficulty',
         'title_id' => 'Do\'a orang yang mengalami kesulitan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1703,6 +1747,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Speech of a sinner',
         'title_id' => 'Ucapan orang yang melakukan dosa',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1719,6 +1764,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a cast out demons and their whispers',
         'title_id' => 'Do\'a mengusir setan dan bisikannya',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1751,6 +1797,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when experiencing something you don\'t want',
         'title_id' => 'Do\'a saat mengalami sesuatu yang tidak diinginkan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1767,6 +1814,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Greetings for the person who gets the birth and the answer',
         'title_id' => 'Ucapan bagi orang yang mendapatkan kelahiran dan jawabannya',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1791,6 +1839,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a protection for children',
         'title_id' => 'Do\'a perlindungan bagi anak',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1807,6 +1856,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for sick person',
         'title_id' => 'Do\'a kepada orang sakit',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1839,6 +1889,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'The preference of visiting the sick person',
         'title_id' => 'Keutamaan mengunjungi orang sakit',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1855,6 +1906,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a sick people who cannot recover',
         'title_id' => 'Do\'a orang sakit yang tidak bisa sembuh',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1887,6 +1939,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Guiding (talqin) the dying',
         'title_id' => 'Membimbing (talqin) orang yang sekarat',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1903,6 +1956,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when a current happens',
         'title_id' => 'Do\'a saat terkena musibah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1919,6 +1973,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when closing the eyes of the corpse',
         'title_id' => 'Do\'a saat memejamkan mata mayat',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1935,6 +1990,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a in Shalat Jenazah',
         'title_id' => 'Do\'a dalam Shalat Jenazah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -1975,6 +2031,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for the corpse of children',
         'title_id' => 'Do\'a untuk mayat anak kecil',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2007,6 +2064,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a Ta\'ziah',
         'title_id' => 'Do\'a ta\'ziah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2031,6 +2089,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a reading when entering the body into the grave hole',
         'title_id' => 'Do\'a saat memasukkan mayat ke liang kubur',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2047,6 +2106,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a after corpse buried',
         'title_id' => 'Do\'a setelah mayat dimakamkan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2063,6 +2123,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a grave pilgrimage',
         'title_id' => 'Do\'a Ziarah Kubur',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2079,6 +2140,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when there are windstorm',
         'title_id' => 'Do\'a apabila ada angin ribut',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2103,6 +2165,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when hearing lightning',
         'title_id' => 'Do\'a saat mendengar petir',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2119,6 +2182,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a to get rain',
         'title_id' => 'Do\'a untuk minta hujan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2151,6 +2215,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when it rains',
         'title_id' => 'Do\'a apabila hujan turun',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2167,6 +2232,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a after the rain down',
         'title_id' => 'Do\'a setelah hujan turun',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2183,6 +2249,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for the rain to stop',
         'title_id' => 'Do\'a agar hujan berhenti',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2199,6 +2266,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when looking at the crescent moon',
         'title_id' => 'Do\'a saat melihat bulan sabit',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2215,6 +2283,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when breaking the fast for people who are fasting',
         'title_id' => 'Do\'a ketika berbuka bagi orang yang berpuasa',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2239,6 +2308,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a before eating',
         'title_id' => 'Do\'a Sebelum Makan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2303,6 +2373,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a after eating',
         'title_id' => 'Do\'a setelah makan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2327,6 +2398,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a from guest for people who serving the foods',
         'title_id' => 'Do\'a tamu kepada orang yang menghidangkan makanan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2343,6 +2415,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for people who gave the drinks',
         'title_id' => 'Do\'a untuk orang yang memberi minuman',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2359,6 +2432,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when break the fasting on other people home',
         'title_id' => 'Do\'a apabila berbuka di rumah orang lain',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2375,6 +2449,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a people who fast together are invited to eat',
         'title_id' => 'Do\'a orang yang berpuasa apabila diajak makan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2391,6 +2466,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Sayings of people who wish to be insulted',
         'title_id' => 'Ucapan orang yang berpuasa bila dihina',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2407,6 +2483,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when seeing the beginning of the fruit',
         'title_id' => 'Do\'a apabila melihat permulaan buah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2423,6 +2500,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when sneezing',
         'title_id' => 'Do\'a ketika bersin',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2463,6 +2541,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Reading when disbelievers sneeze then praise Allah',
         'title_id' => 'Bacaan apabila orang kafir bersin kemudian memuji Allah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2479,6 +2558,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for bridal',
         'title_id' => 'Do\'a kepada pengantin',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2495,6 +2575,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a of bridal for himself',
         'title_id' => 'Do\'a pengantin kepada dirinya',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => 'Apabila seseorang di antara kamu menikahi seorang perempuan atau membeli budak, hendaklah mengucapkan:',
@@ -2511,6 +2592,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a before intercourse',
         'title_id' => 'Do\'a sebelum bersetubuh',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2527,6 +2609,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when angry',
         'title_id' => 'Do\'a ketika marah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2543,6 +2626,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a see other people getting into life problems',
         'title_id' => 'Do\'a apabila melihat orang yang mengalami cobaan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2559,6 +2643,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Reading when in majelis',
         'title_id' => 'Bacaan dalam majelis',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => 'Dari Ibnu Umar R.A katanya: adalah pernah dihitung bacaan Rasulullah ﷺ dalam satu majlis seratus kali sebelum beliau berdiri, yaitu:',
@@ -2575,6 +2660,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a majelis sin reducer',
         'title_id' => 'Do\'a pelebur dosa majelis',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2591,6 +2677,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a to the people who say: (GHAFARALLAAHU LAKA)',
         'title_id' => 'Do\'a kepada orang yang berkata: (GHAFARALLAAHU LAKA)',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => '(Semoga Allah memberikan ampunan kepadamu):',
@@ -2607,6 +2694,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for those who do good for you',
         'title_id' => 'Do\'a untuk orang yang berbuat kebaikan padamu',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2623,6 +2711,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Cara menyelamatkan diri dari dajjal',
         'title_id' => 'How to save yourself from Dajjal',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2639,6 +2728,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a to people who say: I Love You because of Allah',
         'title_id' => 'Do\'a kepada orang yang berkata: Aku Mencintaimu Karena Allah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2655,6 +2745,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a to the people who offers his treasure for you',
         'title_id' => 'Do\'a kepada orang yang menawarkan hartanya untukmu',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2671,6 +2762,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a for people who provide loans when paying debts',
         'title_id' => 'Do\'a untuk orang yang meminjami ketika membayar hutang',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2687,6 +2779,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a to avoid from syirik',
         'title_id' => 'Do\'a agar terhindar dari syirik',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2703,6 +2796,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a to the people who say: (BAARAKALLAHU FIIKA)',
         'title_id' => 'Do\'a untuk orang yang mengatakan: (BAARAKALLAHU FIIKA)',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2719,6 +2813,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a rejects bad feelings / bad luck',
         'title_id' => 'Do\'a menolak firasat buruk / sial',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2735,6 +2830,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a riding vehicle',
         'title_id' => 'Do\'a naik kendaraan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2751,6 +2847,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when traveling',
         'title_id' => 'Do\'a bepergian',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2767,6 +2864,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a entering village or city',
         'title_id' => 'Do\'a masuk desa atau kota',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2783,6 +2881,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a entering market',
         'title_id' => 'Do\'a masuk pasar',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2799,6 +2898,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when the riding animal slips',
         'title_id' => 'Do\'a apabila binatang tunggangan tergelincir',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2815,6 +2915,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when musafer to the one left behind',
         'title_id' => 'Do\'a musafir kepada orang yang ditinggalkan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2831,6 +2932,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a people to the musafir',
         'title_id' => 'Do\'a orang mukim kepada musafir',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2855,6 +2957,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Takbir and Tasbih in a travel',
         'title_id' => 'Takbir dan Tasbih dalam perjalanan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2871,6 +2974,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Musafir Du\'a when around subuh',
         'title_id' => 'Do\'a musafir ketika menjelang subuh',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2887,6 +2991,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when stopping somewhere, whether traveling or not',
         'title_id' => 'Do\'a apabila singgah di suatu tempat, baik dalam bepergian atau tidak',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2903,6 +3008,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a when coming home from a travel',
         'title_id' => 'Do\'a apabila pulang dari bepergian',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => 'Bertakbir tiga kali, di atas tempat yang tinggi, kemudian membaca:',
@@ -2919,6 +3025,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Read when something is pleasant or troublesome',
         'title_id' => 'Bacaan apabila ada sesuatu yang menyenangkan atau menyusahkan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => 'Rasulullah ﷺ apabila ada sesuatu yang menyenangkan, beliau membaca:',
@@ -2943,6 +3050,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'The virtues of reading shalawat',
         'title_id' => 'Keutamaan membaca shalawat',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -2991,6 +3099,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Spreading Salam',
         'title_id' => 'Menyebarkan Salam',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3023,6 +3132,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'When kafir people say salam',
         'title_id' => 'Apabila orang kafir mengucapkan salam',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3039,6 +3149,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'The clue when hearing a rooster crow or donkey braying',
         'title_id' => 'Petunjuk ketika mendengar kokok ayam atau ringkikan keledai',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3055,6 +3166,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'The clue when hearing dogs barking',
         'title_id' => 'Petunjuk apabila mendengar anjing menggonggong',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3071,6 +3183,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Praying people you\'ve insulting',
         'title_id' => 'Mendo\'akan orang yang anda caci',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3087,6 +3200,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'When praising his friend',
         'title_id' => 'Apabila memuji temannya',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3103,6 +3217,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Reading when people praise',
         'title_id' => 'Bacaan bila dipuji orang',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3119,6 +3234,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Talbiyah Reading',
         'title_id' => 'Bacaan Talbiyah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3135,6 +3251,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Doing takbir each come into Rukun Hajar Aswad',
         'title_id' => 'Bertakbir di setiap datang ke Rukun Hajar Aswad',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3151,6 +3268,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a among Rukun Yamani and Hajar Aswad',
         'title_id' => 'Do\'a antara Rukun Yamani dan Hajar Aswad',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3167,6 +3285,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Reading while on Shafa Hill and Marwah',
         'title_id' => 'Bacaan ketika di atas Bukit Shafa dan Marwah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => 'Ketika Nabi ﷺ dekat dengan bukit Shafa, beliau membaca:',
@@ -3191,6 +3310,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Du\'a on Arafah Day',
         'title_id' => 'Do\'a pada Hari Arafah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3215,6 +3335,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'When in Masy\'aril Haram',
         'title_id' => 'Ketika di Masy\'aril Haram',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3231,6 +3352,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Doing Takbir each Throwing Jumrah',
         'title_id' => 'Bertakbir pada setiap Lemparan Jumrah',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3247,6 +3369,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Reading when in awe of something',
         'title_id' => 'Bacaan ketika kagum terhadap sesuatu',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3271,6 +3394,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'What to do when something is exciting',
         'title_id' => 'Yang dilakukan bila ada sesuatu yang menggembirakan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3287,6 +3411,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Readings and actions when feeling pain in the body',
         'title_id' => 'Bacaan dan perbuatan apabila merasa sakit pada anggota badan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => 'Letakkanlah tanganmu pada tubuh yang terasa sakit, dan bacalah: "Bismillah" 3 kali, lalu bacalah tujuh kali:',
@@ -3303,6 +3428,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'When afraid of something with his eyes',
         'title_id' => 'Apabila takut mengenai sesuatu dengan matanya',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3319,6 +3445,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Reading when scared',
         'title_id' => 'Bacaan ketika takut',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3335,6 +3462,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'The reading when slaughtering a sacrifice',
         'title_id' => 'Bacaan ketika menyembelih kurban',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3351,6 +3479,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Readings to reject Satan\'s interference',
         'title_id' => 'Bacaan untuk menolak gangguan setan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3367,6 +3496,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Istighfar and Taubat',
         'title_id' => 'Istighfar dan Taubat',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3423,6 +3553,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'The virtues of Tasbih, Tahmid, Tahlil and Takbir',
         'title_id' => 'Keutamaan Tasbih, Tahmid, Tahlil dan Takbir',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3551,6 +3682,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'How Rasulullah ﷺ reding Tasbih',
         'title_id' => 'Bagaimana cara Rasulullah ﷺ membaca Tasbih',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3567,6 +3699,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Some Adab and Kindness',
         'title_id' => 'Beberapa Adab dan Kebaikan',
         'type' => 'dua',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
@@ -3586,6 +3719,7 @@ Bangun dan shalat, jika dia menghendaki.',
         'title_en' => 'Shalawat and salam about Nabi Muhammad, family and all his friends. Amiin.',
         'title_id' => 'Shalawat dan salam atas Nabi Muhammad, keluarga dan segenap shahabatnya. Amiin.',
         'type' => 'note',
+        'pre_contents' => [],
         'contents' => [
             [
                 'pre_text_id' => null,
