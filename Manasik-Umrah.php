@@ -2,7 +2,7 @@
 // manasik list
 return [
     [
-        'title_id' => 'Manasik Haji',
+        'title_id' => 'Manasik Umrah',
         'type' => 'section',
         'pre_text_id' => null,
         'post_text_id' => null,
@@ -10,7 +10,7 @@ return [
         'contents' => [
             // 1
             [
-                'title_id' => 'Cara Melakukan Haji',
+                'title_id' => 'Cara Melakukan Umrah',
                 'type' => 'list',
                 'pre_text_id' => null,
                 'post_text_id' => null,
@@ -35,15 +35,15 @@ return [
                                 'pre_contents' => [],
                                 'contents' => [
                                     [
-                                        'pre_text_id' => 'Jika anda melakukan haji Ifrad atau Qiran, hendaklah anda berihram dari miqat yang anda lalui. Dan Jika anda tinggal di daerah miqat, maka berihramlah menurut niat anda dari tempat tersebut.',
+                                        'pre_text_id' => 'Apabila anda telah sampai di miqat, maka mandilah dan pakailah wangi-wangian jika hal itu memungkinkan, kemudian kenakanlah pakaian ihram (sarung dan selendang), lebih utama berwarna putih. Bagi wanita boleh mengenakan pakaian yang ia sukai, asal tidak menampakkan perhiasan. Setelah itu berniat ihram untuk umrah seraya mengucapkan:',
                                         'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
+                                        'text' => 'لَبَّيْكَ عُمْرَةً لَبَّيْكَ الَّلهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيْكَ لَكَ لَبَّيْكَ إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ لاَ شَرِيْكَ لَكَ',
+                                        'translation_id' => 'Kusambut panggilan-Mu untuk melaksanakan umrah. Kusambut panggilan-Mu yaa Allah, ku sambut panggilan-Mu, tiada sekutu bagi-Mu, ku sambut panggilan-Mu, sesungguhnya segala puji, nikmat, dan kerajaan adalah milik-Mu, tiada sekutu bagi-Mu',
                                     ],
                                     [
-                                        'pre_text_id' => 'Dan jika anda melakukan haji Tamattu, maka berihramlah dari tempat tinggal anda pada hari Tarwiyah, yaitu tanggal 8 Dzulhijjah. Mandilah dan pakailah wangi-wangian lebih dahulu sekiranya hal itu memungkinkan, kemudian kenakanlah pakaian ihram, lalu berniatlah dengan membaca:',
-                                        'post_text_id' => null,
-                                        'text' => 'لَبَّيْكَ حَجًّا لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيْكَ لَكَ لَبَّيْكَ إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ لاَ شَرِيْكَ لَكَ',
+                                        'pre_text_id' => 'Bagi kaum pria hendaknya mengucapkan talbiah ini dengan suara keras, sedangkan bagi wanita hendaknya mengucapkannya dengan suara pelan.',
+                                        'post_text_id' => 'Kemudian perbanyaklah membaca talbiyah, dzikir dan istighfar serta menganjurkan berbuat baik dan mencegah kemunkaran.',
+                                        'text' => null,
                                         'translation_id' => null,
                                     ]
                                 ]
@@ -58,10 +58,10 @@ return [
                                 'pre_contents' => [],
                                 'contents' => [
                                     [
-                                        'pre_text_id' => 'Kemudian keluarlah menuju Mina. Lakukanlah shalat Zuhur, Ashar, Maghrib, Isya dan Shubuh di sana, dengan cara meng-qhasar shalat yang empat rakaat (Zuhur, Ashar dan Isya) menjadi dua rakaat-dua rakaat pada waktunya masing-masing, tanpa jama\' (digabung).',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
+                                        'pre_text_id' => 'Apabila anda telah sampai di Mekkah, maka lakukanlah thawaf di Ka\'bah sebanyak tujuh putaran, mulai dari Hajar Aswad sambil bertakbir dan selesai di Hajar Aswad pula. Bacalah zikir serta doa yang anda kehendaki. Antara Rukun Yamani dan Hajar Aswad sebaiknya anda membaca:',
+                                        'post_text_id' => 'Kemudian setelah thawaf, lakukanlah shalat dua rakaat di belakang maqam Ibrahim walaupun agak jauh dari tempat tersebut jika hal itu mungkin, jika tidak mungkin, lakukan di tempat lain di dalam masjid.',
+                                        'text' => 'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا    عَذَابَ النَّارِ',
+                                        'translation_id' => 'Wahai Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari siksa api neraka',
                                     ],
                                 ]
                             ],
@@ -75,14 +75,14 @@ return [
                                 'pre_contents' => [],
                                 'contents' => [
                                     [
-                                        'pre_text_id' => 'Apabila matahari telah terbit pada hari kesembilan Dzul hijjah (esoknya), maka berangkatlah anda menuju Arafah dengan tidak tergesa-gesa dan hindarilah jangan sampai mengganggu sesama jamaah haji. Di Arafah lakukanlah shalat Dzuhur dan Ashar dengan jama\' taqdim (menggabungkan dua waktu shalat dilaksanakan di awal waktu) dan qhasar  dengan satu kali azan dan dua kali iqamat.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
+                                        'pre_text_id' => 'Kemudian keluarlah menuju Safa (الصفا) dan naiklah ke atasnya sambil menghadap Ka\'bah, bacalah tahmid serta takbir tiga kali sambil mengangkat kedua tangan, bacalah doa dan ulangilah setiap doa tiga kali sesuai sunnah Rasulullah shallallahu \'alaihi wa sallam, lalu ucapkanlah:',
+                                        'post_text_id' => 'Ucapkanlah bacaan tersebut tiga kali, dan tak mengapa apabila anda baca kurang bilangan itu.',
+                                        'text' => 'لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ. لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ وَنَصَرَ عَبْدَهُ وَهَزَمَ اْلأَحْزَابَ وَحْدَهُ .',
+                                        'translation_id' => 'Tiada Tuhan yang patut disembah selain Allah Yang Maha Esa, tiada sekutu bagi-Nya, hanya bagi-Nya segala kerajaan dan hanya bagi-Nya segala puji, Dia Maha Kuasa atas segala sesuatu. Tiada Tuhan yang patut disembah selain Allah Yang Maha Esa, yang menepati janji-Nya dan memenangkan hamba-Nya serta telah menghancurkan golongan kafir sendirian.',
                                     ],
                                     [
-                                        'pre_text_id' => 'Tentang wukuf ini, anda harus yakin bahwa anda benar-benar telah berada di dalam batas Arafah (bukan di luarnya). Dan perbanyaklah di sini zikir dan doa, sambil menghadap kiblat dan mengangkat kedua tangan, mencontoh apa yang dilakukan Rasulullah shallallahu \'alaihi wa sallam. Padang Arafah seluruhnya merupakan wukuf, dan hendaklah anda tetap berada disana hingga matahari terbenam.',
-                                        'post_text_id' => null,
+                                        'pre_text_id' => 'Kemudian turunlah dan lakukanlah sa\'i umroh sebanyak tujuh kali putaran dengan berjalan cepat di antara tanda hijau dan berjalan biasa sebelum dan sesudah tanda tersebut, kemudian naiklah anda ke atas Marwa, lalu bacalah takbir dan tahmid tiga kali apabila mungkin sebagaimana yang anda lakukan di Safa.',
+                                        'post_text_id' => 'Dalam thawaf ataupun Sa\'i, tidak ada bacaan zikir wajib yang khusus untuk itu. Akan tetapi dibolehkan bagi yang melakukan thawaf atau sa\'i untuk membaca zikir dan do\'a atau bacaan Al Quran yang mudah baginya, dengan mengutamakan bacaan-bacaan zikir dan doa yang bersumber dari tuntunan Rasulullah shallallahu \'alaihi wa sallam.',
                                         'text' => null,
                                         'translation_id' => null,
                                     ],
@@ -98,183 +98,7 @@ return [
                                 'pre_contents' => [],
                                 'contents' => [
                                     [
-                                        'pre_text_id' => 'Apabila matahari telah terbenam, berangkatlah menuju Muzdalifah dengan tenang sambil membaca talbiyah, dan hindarilah jangan sampai mengganggu sesama muslim. Sesampainya anda di Muzdalifah, lakukanlah shalat Maghrib dan Isya dengan jama\' dan qhasar. Hendaklah anda menetap di sana hingga anda melakukan shalat Shubuh. Setelah selesai shalat Shubuh perbanyaklah doa dan zikir hingga hari tampak mulai terang, sambil menghadap kiblat dan mengangkat kedua tangan, mengikuti tuntunan Rasulullah shallallahu \'alaihi wa sallam.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                ]
-                            ],
-                            // 5
-                            [
-                                'type' => 'note',
-                                'pre_text_id' => null,
-                                'post_text_id' => null,
-                                'text' => null,
-                                'translation_id' => null,
-                                'pre_contents' => [],
-                                'contents' => [
-                                    [
-                                        'pre_text_id' => 'Kemudian berangkatlah sebelum matahari terbit menuju Mina sambil membaca talbiyah. Bagi yang udzur, seperti wanita dan orang-orang yang lemah, boleh berangkat menuju Mina pada malam itu juga setelah lewat pertengahan malam. Dan pungutlah di Muzdalifah batu-batu kecil sebanyak tujuh biji saja untuk melempar jumrah Aqabah. Adapun yang lain cukup anda pungut di Mina. Demikian juga tujuh batu yang akan anda pergunakan untuk melempar jumrah Aqabah pada hari raya, tak mengapa bagi anda untuk memungutnya di Mina.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                ]
-                            ],
-                            // 6
-                            [
-                                'type' => 'list',
-                                'pre_text_id' => 'Apabila anda telah tiba di Mina, lakukanlah hal-hal dibawah ini:',
-                                'post_text_id' => null,
-                                'text' => null,
-                                'translation_id' => null,
-                                'list' => [
-                                    [
-                                        'pre_text_id' => null,
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                        'type' => 'sublist',
-                                        'sublist' => [
-                                            [
-                                                'type' => 'note',
-                                                'pre_text_id' => null,
-                                                'post_text_id' => null,
-                                                'text' => null,
-                                                'translation_id' => null,
-                                                'pre_contents' => [],
-                                                'contents' => [
-                                                    [
-                                                        'pre_text_id' => 'Lemparlah jumrah Aqabah, yaitu jumrah yang terdekat dari Mekkah, dengan tujuh batu kecil secara berturut-turut sambil bertakbir pada setiap kali lemparan.',
-                                                        'post_text_id' => null,
-                                                        'text' => null,
-                                                        'translation_id' => null,
-                                                    ]
-                                                ]
-                                            ],
-                                            [
-                                                'type' => 'note',
-                                                'pre_text_id' => null,
-                                                'text' => null,
-                                                'translation_id' => null,
-                                                'pre_contents' => [],
-                                                'contents' => [
-                                                    [
-                                                        'pre_text_id' => 'Sembelihlah kurban jika anda berkewajiban melakukannya dan makanlah sebagian dagingnya, serta berikan sebagian besarnya kepada orang-orang fakir.',
-                                                        'post_text_id' => null,
-                                                        'text' => null,
-                                                        'translation_id' => null,
-                                                    ]
-                                                ],
-                                            ],
-                                            [
-                                                'type' => 'note',
-                                                'pre_text_id' => null,
-                                                'text' => null,
-                                                'translation_id' => null,
-                                                'pre_contents' => [],
-                                                'contents' => [
-                                                    [
-                                                        'pre_text_id' => 'Bercukurlah dengan bersih (gundul) atau pendekkan rambut anda, akan tetapi mencukur bersih lebih utama. Sedang bagi wanita cukup menggunting ujung rambutnya kurang lebih seujung jari. Lebih utama jika ketiga perkara ini dilakukan secara tertib. Namun tak mengapa jika anda dahulukan yang satu dari yang lain.',
-                                                        'post_text_id' => null,
-                                                        'text' => null,
-                                                        'translation_id' => null,
-                                                    ],
-                                                    [
-                                                        'pre_text_id' => 'Apabila anda telah selesai melempar dan mencukur, berarti anda telah melaksanakan tahallul Awwal, dan selanjutnya anda boleh mengenakan pakaian biasa dan melakukan hal-hal yang tadinya menjadi larangan ihram, kecuali berhubungan dengan istri.',
-                                                        'post_text_id' => null,
-                                                        'text' => null,
-                                                        'translation_id' => null,
-                                                    ]
-                                                ],
-                                            ],
-                                        ]
-                                    ]
-                                ],
-                                'pre_contents' => [],
-                                'contents' => [],
-                            ],
-                            // 7
-                            [
-                                'type' => 'note',
-                                'pre_text_id' => null,
-                                'post_text_id' => null,
-                                'text' => null,
-                                'translation_id' => null,
-                                'pre_contents' => [],
-                                'contents' => [
-                                    [
-                                        'pre_text_id' => 'Kemudian berangkatlah menuju Mekkah dan lakukanlah thawaf Ifadah, setelah itu lakukanlah Sa\'i jika anda melakukan haji Tamattu, atau jika anda melakukan haji Qiran atau Ifrad akan tetapi anda belum melakukan sa\'i sebelumnya (setelah tawaf qudum). Setelah itu anda diperbolehkan berhubungan suami-istri (Tahallul Tsani).',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                    [
-                                        'pre_text_id' => 'Thawaf Ifadah ini boleh di akhirkan pelaksanaannya hingga berlalunya hari-hari Mina, baru kemudian menuju Mekkah setelah melempar seluruh Jumrah.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                ]
-                            ],
-                            // 8
-                            [
-                                'type' => 'note',
-                                'pre_text_id' => null,
-                                'post_text_id' => null,
-                                'text' => null,
-                                'translation_id' => null,
-                                'pre_contents' => [],
-                                'contents' => [
-                                    [
-                                        'pre_text_id' => 'Setelah thawaf Ifadhah pada hari Nahr, kembalilah ke Mina. Bermalamlah di sana pada hari Tasyriq, yaitu tgl. 11, 12, dan 13 dan tidak mengapa jika anda bermalam hanya dua malam saja.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                ]
-                            ],
-                            // 9
-                            [
-                                'type' => 'note',
-                                'pre_text_id' => null,
-                                'post_text_id' => null,
-                                'text' => null,
-                                'translation_id' => null,
-                                'pre_contents' => [],
-                                'contents' => [
-                                    [
-                                        'pre_text_id' => 'Lemparlah ketiga jumrah selama anda menetap dua atau tiga hari di Mina setelah matahari tergelincir. Anda mulai dari Jumrah Ula, yaitu yang jaraknya paling jauh dari Mekkah, kemudian jumrah Wustha (tengah) dan selanjutnya jumrah Aqabah, setiap  jumrah dilempar dengan tujuh batu kecil secara berturut-turut sambil bertakbir pada setiap kali lemparan.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                    [
-                                        'pre_text_id' => 'Jika anda menghendaki untuk menetap selama dua hari saja, hendaklah anda meninggalkan Mina sebelum matahari terbenam di hari kedua itu (Nafar Awwal). Dan jika ternyata matahari telah terbenam sebelum anda keluar dari batas Mina, maka hendaklah anda bermalam lagi pada malam hari ketiganya dan melempar jumrah pada hari ketiga itu (Nafar Tsani). Lebih utama hendaknya anda bermalam pada malam ketiga tersebut.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                    [
-                                        'pre_text_id' => 'Bagi yang sakit atau yang lemah, boleh mewakilkan kepada orang lain untuk melempar jumrah, dan bagi siapa yang mewakili (orang lain), melempar untuk dirinya sendiri terlebih dahulu, kemudian untuk yang diwakilinya dapat dilaksanakan sekaligus dalam satu tempat jumrah.',
-                                        'post_text_id' => null,
-                                        'text' => null,
-                                        'translation_id' => null,
-                                    ],
-                                ]
-                            ],
-                            // 10
-                            [
-                                'type' => 'note',
-                                'pre_text_id' => null,
-                                'post_text_id' => null,
-                                'text' => null,
-                                'translation_id' => null,
-                                'pre_contents' => [],
-                                'contents' => [
-                                    [
-                                        'pre_text_id' => 'Apabila anda hendak kembali ke kampung setelah menyelesaikan segala amalan haji, lakukanlah thawaf wada\', kecuali bagi wanita yang sedang datang bulan (haidh) dan yang nifas.',
+                                        'pre_text_id' => 'Bila anda telah selesai melakukan sa\'i, maka cukurlah dengan bersih (gundul) atau pendekkan rambut kepala anda. Dengan demikian selesailah umrah anda dan selanjutnya anda diperbolehkan melakukan hal-hal yang tadinya menjadi larangan ihram.',
                                         'post_text_id' => null,
                                         'text' => null,
                                         'translation_id' => null,
@@ -283,7 +107,14 @@ return [
                             ],
                         ],
                         'pre_contents' => [],
-                        'contents' => [],
+                        'contents' => [
+                            [
+                                'pre_text_id' => 'Apabila anda melakukan haji Tamattu, maka wajib bagi anda menyembelih hewan pada hari Nahr, yaitu seekor kambing atau sepertujuh onta/sapi, jika anda tidak mendapatkannya, maka anda wajib melakukan puasa sepuluh hari; tiga hari di waktu haji, dan tujuh hari setelah anda pulang ke keluarga anda.',
+                                'post_text_id' => 'Dan lebih utama, anda lakukan puasa tiga hari sebelum hari Arafah, jika anda melakukan haji Tamattu atau Qiran.',
+                                'text' => null,
+                                'translation_id' => null,
+                            ]
+                        ],
                     ]
                 ],
                 'pre_contents' => [],
@@ -726,7 +557,7 @@ return [
         ],
     ],
     [
-        'title_id' => 'Beberapa Kesalahan Yang Dilakukan Oleh Sebagian Jamaah Haji',
+        'title_id' => 'Beberapa Kesalahan Yang Dilakukan Oleh Sebagian Jamaah Umrah',
         'type' => 'section',
         'pre_text_id' => null,
         'post_text_id' => 'Kita memohon kepada Allah, semoga Dia memperbaiki keadaan ummat Islam dan memberi pemahaman dalam agama serta melindungi kita dan seluruh umat Islam dari fitnah-fitnah yang menyesatkan. Sesungguhnya Allah Maha Mendengar dan Mengabulkan doa hamba-Nya.',

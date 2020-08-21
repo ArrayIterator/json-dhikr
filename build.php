@@ -4,6 +4,7 @@ $basePath = __DIR__ .'/json';
 $json = [
     'doa' => __DIR__ .'/Doa.php',
     'manasik-haji' => __DIR__ .'/Manasik-Haji.php',
+    'manasik-umrah' => __DIR__ .'/Manasik-Umrah.php',
 ];
 
 if (!is_dir($basePath)) {
